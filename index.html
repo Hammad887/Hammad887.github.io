@@ -17,6 +17,15 @@ Licence URI: http://www.os-templates.com/template-terms
         max-height: 100%;
         display: block; /* remove extra space below image */
     }
+	.box{
+        width: 250px;
+    }    
+    .box.large{
+        height: 300px;
+    }
+    .box.small{
+        height: 100px;
+    }
 </style>
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
@@ -76,12 +85,14 @@ Licence URI: http://www.os-templates.com/template-terms
             <!--<div id="slide-wrapper" class="rounded clear">
 
               <!-- ################################################################################################ -->
-            <figure id="slide-1" style="width:30%;height:373px;float: left;padding: 5px;margin-right:40px;margin-left:10px">
-                <a href="#" target="_self" class="view"><img src="images/demo/slider/Edited.jpg" height="" align="right" alt=""></a>
+            <figure id="slide-1" style="width:30%;height:300px;float: left;padding: 5px;margin-right:0px;margin-left:70px">
+                <div class="box">
+					<img src="images/demo/slider/Edited.jpg" height="300" align="right" alt="">
+				</div>
             </figure>
             <figcaption style="float: left;width: 50%;padding: 5px;">
                 <h2 style="font-size: 35px;text-align:center;font-weight:bold"><u>About Me</u></h2>
-                <p>I am a senior at UC Berkeley in pursuit of my BS. Electrical Engineering and Computer Science. In addition to serving my community and engaging in academic research in carbon nano-tubes, I am continuing to take courses to both deepen and broaden my knowledge of computer science.</p>
+                <p><br>I am a senior at UC Berkeley in pursuit of my BS. Electrical Engineering and Computer Science. In addition to serving my community and engaging in academic research in carbon nano-tubes, I am continuing to take courses to both deepen and broaden my knowledge of computer science.</p>
                 <p>My interests are in machine learning and artificial intelligence. I'm especially fascinated by modern applications in immersive experiences such as virtual/augmented reality, autonomous driving, animation, and video games. As I approach the end of my seventh semester, I aspire to play a role in pushing the boundaries of these fields to improve day-to-day life and create exciting new experiences for everyone.</p>
                 <p>I intend to graduate with my Bachelors degree in May 2022, so I am currently looking for an internship to apply my experience and enthusiasm towards meaningful and exciting challenges in the field of artificial intelligence and their many unique applications, all the while learning as much as I can from my work and my colleagues.</p>
             </figcaption>
